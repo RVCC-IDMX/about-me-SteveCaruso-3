@@ -1,0 +1,31 @@
+body {
+    color:#0749AD;
+    background-color:#d49e32;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    text-align:center;
+    background-color:#AD7C18;
+    padding:20px;
+    border:2px solid #3c87fa;
+}
+
+#hero img {
+    width:50vw;
+    max-width:500px;
+    min-width:300px
+}
+
+#bio {
+    text-align:center;
+}
