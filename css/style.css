@@ -7,6 +7,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pacifico', cursive;
     font-size:40pt;
+    text-align:center;
 }
 
 header {
@@ -28,4 +29,28 @@ header {
 
 #bio {
     text-align:center;
+}
+
+#hobbies {
+    text-align:center;
+}
+
+#hobbies * {
+}
+
+#hobbies ul {
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hobbies ul li {
+    text-align:left;
+}
+
+#hobbies ul li:nth-child(3n+1) {
+    color:#3c87fa;
+}
+#hobbies ul li:nth-child(3n+2) {
+    color:red;
 }
